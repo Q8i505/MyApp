@@ -13,6 +13,7 @@
 		E74DDC65245BC0EB00615DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74DDC64245BC0EB00615DC2 /* Assets.xcassets */; };
 		E74DDC68245BC0EB00615DC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74DDC67245BC0EB00615DC2 /* Preview Assets.xcassets */; };
 		E74DDC6B245BC0EB00615DC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74DDC69245BC0EB00615DC2 /* LaunchScreen.storyboard */; };
+		E7636415245E693A00CCA437 /* CW1(Day1).swift in Sources */ = {isa = PBXBuildFile; fileRef = E7636414245E693A00CCA437 /* CW1(Day1).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E74DDC67245BC0EB00615DC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E74DDC6A245BC0EB00615DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E74DDC6C245BC0EB00615DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7636414245E693A00CCA437 /* CW1(Day1).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CW1(Day1).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E74DDC5E245BC0E100615DC2 /* AppDelegate.swift */,
 				E74DDC60245BC0E100615DC2 /* SceneDelegate.swift */,
 				E74DDC62245BC0E100615DC2 /* ContentView.swift */,
+				E7636414245E693A00CCA437 /* CW1(Day1).swift */,
 				E74DDC64245BC0EB00615DC2 /* Assets.xcassets */,
 				E74DDC69245BC0EB00615DC2 /* LaunchScreen.storyboard */,
 				E74DDC6C245BC0EB00615DC2 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E74DDC5F245BC0E100615DC2 /* AppDelegate.swift in Sources */,
+				E7636415245E693A00CCA437 /* CW1(Day1).swift in Sources */,
 				E74DDC61245BC0E100615DC2 /* SceneDelegate.swift in Sources */,
 				E74DDC63245BC0E100615DC2 /* ContentView.swift in Sources */,
 			);
