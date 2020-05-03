@@ -55,8 +55,31 @@ struct CW1_Day1_: View {
 
     @State var thekr = ("سبحان الله")
     var body: some View {
-        ZStack { Image("BACKGROUND")
-            .resizable()
+        ZStack {
+            BG()
+              Text(thekr)
+                  .font(.largeTitle)
+                  .foregroundColor(.white)
+                  .multilineTextAlignment(.center)
+                  .padding()
+                  .onTapGesture {
+                      self.thekr = self.athkar.randomElement()!
+            }
+        } .edgesIgnoringSafeArea(.all)
+    }}
+struct CW1_Day1__Previews: PreviewProvider {
+    static var previews: some View {
+        CW1_Day1_()
+    }
+}
+
+
+
+struct BG: View {
+    var body: some View {
+        ZStack {
+            Image("BACKGROUND")
+                .resizable()
             VStack {
                 Image("Header")
                     .resizable()
@@ -66,21 +89,6 @@ struct CW1_Day1_: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
             }
-            
-            Text(thekr)
-                .font(.largeTitle)
-                .foregroundColor(.white)
-                .multilineTextAlignment(.center)
-            .padding()
-                .onTapGesture {
-                    self.thekr = self.athkar.randomElement()!
-            }
         }
-        .edgesIgnoringSafeArea(.all)
-    }
-}
-struct CW1_Day1__Previews: PreviewProvider {
-    static var previews: some View {
-        CW1_Day1_()
     }
 }
